@@ -11,9 +11,9 @@ app.secret_key = 'secret_key'
 
 # Looking to send emails in production? Check out our Email API/SMTP product!
 app.config['MAIL_SERVER']='sandbox.smtp.mailtrap.io'
-app.config['MAIL_PORT'] = 2525
-app.config['MAIL_USERNAME'] = '43b550aa7a7a02'
-app.config['MAIL_PASSWORD'] = '5b543f9602c8b6'
+app.config['MAIL_PORT'] = XXXX
+app.config['MAIL_USERNAME'] = 'Add user name'
+app.config['MAIL_PASSWORD'] = 'Add your mailtrap pass here'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 app.config['MAIL_DEFAULT_SENDER'] = 'test@example.com'
